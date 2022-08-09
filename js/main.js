@@ -25,9 +25,9 @@ let game__mole = document.querySelector('.game__mole');
     let tanahEl = document.createElement('img');
     let tikusEl = document.createElement('img');
     tanahEl.className = "tanahEl";
-    tanahEl.src = `./images/tanah.png`;
+    tanahEl.src = "./images/tanah.png";
     tikusEl.classList = "tikusEl";
-    tikusEl.src = `./images/tikus.png`;
+    tikusEl.src = "./images/tikus.png";
     bungkusEl.appendChild(tanahEl)
     bungkusEl.appendChild(tikusEl)
     game__mole.appendChild(bungkusEl)
